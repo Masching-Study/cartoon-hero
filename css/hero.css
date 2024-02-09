@@ -6,13 +6,14 @@ line-height: 30px;
 }
 
 header{
-background-color: darkred ;
+background-image: url(https://i.pinimg.com/originals/87/c1/2e/87c12ec23d483ebeebe83279af05d359.jpg);
+
 text-align: center;
 padding-top:50px;
 padding-bottom:50px;
 }
 
-h1, h2{
+h1, h2, h3{
 	font-family: 'Germania One', system-ui;
 }
 
@@ -45,13 +46,26 @@ h2{
 	margin: 40px 0 10px;
 }
 
-a{
+
+h3{
+	font-size: 25px;
 	color:darkslategrey;
+	margin: 40px 0 10px;
 }
 
-a:hover{
-	color: purple;
-	background-color: whitesmoke;
+.image_container{
+display: inline-block;	
+margin-right:20px;
+text-align: center;
+}
+
+.image_container img{
+	width: 300px;
+	height: auto;
+}
+
+a{
+	width: 150px
 }
 
 footer{
@@ -60,6 +74,7 @@ text-align: center;
 color: white;
 padding-top:25px;
 padding-bottom:50px;
+margin-top:50px;
 }
 
 footer a{
